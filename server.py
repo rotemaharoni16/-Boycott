@@ -25,5 +25,4 @@ def register():
 def get_users():
     return jsonify(users)
 
-print("hi")
 app.run(debug=True)
